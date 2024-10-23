@@ -1,0 +1,1367 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+// navbar
+.header {
+  background-color: white;
+  nav {
+    display: flex;
+  }
+  img {
+    display: inline;
+    height: 90px;
+    width: 90px;
+    margin-left: 100px;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 90px;
+    margin-left: 280px;
+    margin-top: 28px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  li a {
+    text-decoration: none;
+    list-style: none;
+    font-weight: 300;
+    font-size: 22px;
+    padding: 10px;
+    color: black;
+  }
+  .icons {
+    display: flex;
+    color: black;
+    gap: 15px;
+    margin-left: 250px;
+    font-size: 20px;
+    margin-top: 35px;
+  }
+  .icons:hover {
+    cursor: pointer;
+  }
+}
+// navbar ends
+
+// Main starts
+.main {
+  display: flex;
+  background-color: rgb(242, 239, 239);
+  height: 725px;
+  .main-intro {
+    font-family: "Noto Sans JP", sans-serif;
+    margin-top: 150px;
+    margin-left: 50px;
+    padding: 80px;
+  }
+  h1 {
+    font-weight: 100;
+    font-size: 65px;
+  }
+  h3 {
+    font-weight: 100;
+    font-size: 35px;
+  }
+  p {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  img {
+    height: 550px;
+    margin-top: 70px;
+    margin-right: 200px;
+  }
+  .lines {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 765px;
+    left: 680px;
+    .line {
+      height: 2px;
+      width: 35px;
+      background-color: rgb(133, 207, 133);
+    }
+    .line:hover {
+      background-color: rgb(67, 175, 67);
+      cursor: pointer;
+    }
+  }
+}
+
+// categories of the month
+
+.categories {
+  margin-top: 80px;
+  h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+  }
+  p {
+    font-family: "Noto Sans JP", sans-serif;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 100;
+  }
+}
+
+// watch glasses shoes
+.products {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 80px;
+
+  img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+  }
+}
+
+.products-desc1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans JP", sans-serif;
+  gap: 300px;
+  .watch-desc {
+    position: relative;
+    right: 25px;
+    top: 10px;
+  }
+  .shoe-desc {
+    position: relative;
+    left: 25px;
+    top: 10px;
+  }
+  .acc-desc {
+    position: relative;
+    left: 50px;
+    top: 10px;
+  }
+}
+
+.products-desc2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans JP", sans-serif;
+  gap: 200px;
+
+  .btn {
+    font-family: "Noto Sans JP", sans-serif;
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: rgb(107, 179, 107);
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid rgb(107, 179, 107);
+  }
+  .btn1 {
+    position: relative;
+    right: 100px;
+    top: 30px;
+  }
+  .btn2 {
+    position: relative;
+    left: 20px;
+    top: 30px;
+  }
+  .btn3 {
+    position: relative;
+    left: 120px;
+    top: 30px;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+}
+
+//  featured-products
+
+.featured-products {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: rgb(221, 221, 241);
+  height: 900px;
+  position: relative;
+  top: 160px;
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 200;
+    position: relative;
+    top: 60px;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    position: relative;
+    top: 60px;
+  }
+}
+
+.card {
+  display: flex;
+  gap: 80px;
+  margin-left: 160px;
+  margin-top: 120px;
+  .card1,
+  .card2,
+  .card3 {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    background-size: cover;
+    h1 {
+      font-size: 35px;
+      position: relative;
+      right: 100px;
+      top: 20px;
+    }
+    p {
+      text-align: start;
+      position: relative;
+      bottom: -100px;
+      left: 10px;
+    }
+  }
+  img {
+    height: 250px;
+    width: 350px;
+  }
+}
+
+//  FOOTER PAGE1
+.footer {
+  height: 500px;
+  background-color: #212529;
+  font-family: "Noto Sans JP", sans-serif;
+
+  .zs-container {
+    // background-color: aqua;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 80px;
+    top: 40px;
+  }
+  h3 {
+    color: rgb(108, 193, 108);
+    font-size: 28px;
+  }
+  .location-icon,
+  .call-icon,
+  .mail-icon {
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    display: inline;
+  }
+  .icons {
+    margin-top: 15px;
+  }
+  .icon-desc {
+    position: relative;
+    bottom: 150px;
+    left: 35px;
+    p {
+      font-size: 16px;
+      text-align: start;
+      color: white;
+      margin: 5px;
+    }
+  }
+  .icons:hover {
+    cursor: pointer;
+  }
+  .icon-desc:hover {
+    cursor: pointer;
+  }
+
+  // products
+  .p-container {
+    height: 400px;
+    width: 350px;
+    position: relative;
+    bottom: 250px;
+    left: 500px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  h1 {
+    font-size: 35px;
+    text-align: start;
+    position: relative;
+    top: -10px;
+    font-weight: 300;
+    color: white;
+  }
+  .p-items {
+    color: white;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    margin: 10px;
+    text-align: start;
+  }
+  li:hover {
+    cursor: pointer;
+  }
+
+  .further-container {
+    height: 240px;
+    width: 300px;
+    // background-color: green;
+    position: relative;
+    left: 350px;
+    bottom: 260px;
+  }
+  .further-items {
+    color: white;
+  }
+  .further-items:hover {
+    cursor: pointer;
+  }
+
+  // social media icons
+  .media-container {
+    height: 80px;
+    width: 350px;
+    // background-color: green;
+    position: relative;
+    bottom: 320px;
+    left: 80px;
+    display: flex;
+  }
+  .fb-icon,
+  .insta-icon,
+  .twitter-icon {
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    border-radius: 50%;
+  }
+  i {
+    align-items: center;
+    margin-left: 8px;
+    color: white;
+  }
+  i:hover {
+    cursor: pointer;
+    color: #212529;
+    background-color: white;
+  }
+
+  //  footer-form
+  .footer-form {
+    position: relative;
+    bottom: 380px;
+    left: 950px;
+    width: 400px;
+  }
+
+  input {
+    height: 42px;
+    width: 255px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+  .form-btn {
+    height: 46px;
+    width: 100px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    position: relative;
+    bottom: 1.5px;
+    background-color: rgb(116, 210, 116);
+    color: white;
+    border-radius: 5px;
+  }
+  .form-btn:hover {
+    cursor: pointer;
+  }
+}
+
+// ABOUT US PAGE
+.main2-container {
+  background-color: rgb(166, 199, 213);
+  height: 650px;
+  img {
+    height: 450px;
+    width: 350px;
+    position: relative;
+    left: 950px;
+    bottom: 100px;
+  }
+}
+.main2-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 200px;
+  width: 700px;
+  //  border:2px solid black;
+  position: relative;
+  top: 200px;
+  left: 100px;
+  h1 {
+    font-size: 42px;
+    color: black;
+  }
+  p {
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .main2-img {
+    height: 200px;
+    width: 100px;
+    border: 2px solid black;
+  }
+}
+
+// our services
+.our-services {
+  font-family: "Noto Sans JP", sans-serif;
+  h1 {
+    font-size: 55px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 60px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+  }
+}
+// services card
+.services-cards {
+  display: flex;
+  gap: 80px;
+  margin-left: 250px;
+  margin-top: 80px;
+  .scard1,
+  .scard2,
+  .scard3 {
+    height: 250px;
+    width: 280px;
+    border: 2px solid rgb(166, 199, 213);
+    border-radius: 8px;
+  }
+  h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 120px;
+    left: 60px;
+  }
+  .scard1,
+  h1 {
+    margin-bottom: 50px;
+  }
+  i {
+    font-size: 70px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+    color: rgb(166, 199, 213);
+  }
+  .scard1 h1 {
+    margin-bottom: 50px;
+  }
+}
+
+// our brands
+.our-container {
+  height: 450px;
+  background-color: rgb(166, 199, 213);
+  margin-top: 60px;
+  h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 50px;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px;
+  }
+  .brand-images {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    img {
+      height: 80px;
+      width: 120px;
+      position: relative;
+      top: 80px;
+    }
+    img:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+// Shop page starts
+// SHOP PAGE NAV
+nav {
+  box-shadow: 0px 0px 2px rgb(182, 171, 171);
+}
+
+// main sec
+.categories-container {
+  font-family: "Noto Sans JP", sans-serif;
+  //  border:2px solid black;
+  height: 400px;
+  width: 220px;
+  margin-left: 80px;
+  margin-top: 50px;
+  h1 {
+    font-size: 35px;
+    font-weight: 200;
+    margin-left: 5px;
+  }
+  ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  li {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 5px;
+  }
+  li:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px grey;
+  }
+}
+// main sec intro
+
+.product-heading {
+  font-family: "Noto Sans JP", sans-serif;
+  h1 {
+    font-size: 26px;
+    font-weight: 200;
+    position: relative;
+    bottom: 400px;
+    left: 400px;
+    word-spacing: 8px;
+    display: inline;
+  }
+}
+
+// main sec cards
+
+.shop-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  // border:2px solid black;
+  position: relative;
+  left: 400px;
+  bottom: 380px;
+  width: 999px;
+  img {
+    height: 380px;
+  }
+  .card {
+    height: 520px;
+    width: 285px;
+    border: 2px solid black;
+    margin: 0;
+    border: 2px solid rgb(189, 186, 186);
+  }
+  .card:hover {
+    cursor: pointer;
+    border: 3px solid rgb(118, 113, 113);
+  }
+
+  .card1-desc {
+    font-family: "Noto Sans JP", sans-serif;
+    // background-color: red;
+    height: 130px;
+    width: 280px;
+    position: absolute;
+    top: 385px;
+    left: 2px;
+    h2 {
+      font-size: 20px;
+      font-weight: 200;
+      margin-left: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 200;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    p {
+      margin-left: 20px;
+    }
+    button {
+      // background-color: aquamarine;
+      height: 30px;
+      width: 80px;
+      font-family: "Noto Sans JP", sans-serif;
+      margin-left: 180px;
+      border-radius: 5px;
+      border: 2px solid rgb(172, 169, 169);
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .card2-desc {
+    font-family: "Noto Sans JP", sans-serif;
+    // background-color: red;
+    height: 130px;
+    width: 280px;
+    position: absolute;
+    left: 322px;
+    top: 390px;
+    h2 {
+      font-size: 20px;
+      font-weight: 200;
+      margin-left: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 200;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    p {
+      margin-left: 20px;
+    }
+    button {
+      // background-color: aquamarine;
+      height: 30px;
+      width: 80px;
+      font-family: "Noto Sans JP", sans-serif;
+      margin-left: 180px;
+      border-radius: 5px;
+      border: 2px solid rgb(172, 169, 169);
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .card3-desc {
+    font-family: "Noto Sans JP", sans-serif;
+    // background-color: red;
+    height: 130px;
+    width: 280px;
+    position: absolute;
+    left: 640px;
+    top: 390px;
+    h2 {
+      font-size: 20px;
+      font-weight: 200;
+      margin-left: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 200;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    p {
+      margin-left: 20px;
+    }
+    button {
+      // background-color: aquamarine;
+      height: 30px;
+      width: 80px;
+      font-family: "Noto Sans JP", sans-serif;
+      margin-left: 180px;
+      border-radius: 5px;
+      border: 2px solid rgb(172, 169, 169);
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .card4-desc {
+    font-family: "Noto Sans JP", sans-serif;
+    // background-color: red;
+    height: 130px;
+    width: 280px;
+    position: absolute;
+    left: 5px;
+    top: 940px;
+    h2 {
+      font-size: 20px;
+      font-weight: 200;
+      margin-left: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 200;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    p {
+      margin-left: 20px;
+    }
+    button {
+      // background-color: aquamarine;
+      height: 30px;
+      width: 80px;
+      font-family: "Noto Sans JP", sans-serif;
+      margin-left: 180px;
+      border-radius: 5px;
+      border: 2px solid rgb(172, 169, 169);
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .card5-desc {
+    font-family: "Noto Sans JP", sans-serif;
+    // background-color: red;
+    height: 130px;
+    width: 280px;
+    position: absolute;
+    left: 330px;
+    top: 940px;
+    h2 {
+      font-size: 20px;
+      font-weight: 200;
+      margin-left: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 200;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    p {
+      margin-left: 20px;
+    }
+    button {
+      // background-color: aquamarine;
+      height: 30px;
+      width: 80px;
+      font-family: "Noto Sans JP", sans-serif;
+      margin-left: 180px;
+      border-radius: 5px;
+      border: 2px solid rgb(172, 169, 169);
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .card6-desc {
+    font-family: "Noto Sans JP", sans-serif;
+    // background-color: red;
+    height: 130px;
+    width: 280px;
+    position: absolute;
+    left: 640px;
+    top: 940px;
+    h2 {
+      font-size: 20px;
+      font-weight: 200;
+      margin-left: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 200;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    p {
+      margin-left: 20px;
+    }
+    button {
+      // background-color: aquamarine;
+      height: 30px;
+      width: 80px;
+      font-family: "Noto Sans JP", sans-serif;
+      margin-left: 180px;
+      border-radius: 5px;
+      border: 2px solid rgb(172, 169, 169);
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .card7-desc {
+    font-family: "Noto Sans JP", sans-serif;
+    // background-color: red;
+    height: 130px;
+    width: 280px;
+    position: absolute;
+    left: 5px;
+    top: 1490px;
+    h2 {
+      font-size: 20px;
+      font-weight: 200;
+      margin-left: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 200;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    p {
+      margin-left: 20px;
+    }
+    button {
+      // background-color: aquamarine;
+      height: 30px;
+      width: 80px;
+      font-family: "Noto Sans JP", sans-serif;
+      margin-left: 180px;
+      border-radius: 5px;
+      border: 2px solid rgb(172, 169, 169);
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .card8-desc {
+    font-family: "Noto Sans JP", sans-serif;
+    // background-color: red;
+    height: 130px;
+    width: 280px;
+    position: absolute;
+    left: 325px;
+    top: 1490px;
+    h2 {
+      font-size: 20px;
+      font-weight: 200;
+      margin-left: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 200;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    p {
+      margin-left: 20px;
+    }
+    button {
+      // background-color: aquamarine;
+      height: 30px;
+      width: 80px;
+      font-family: "Noto Sans JP", sans-serif;
+      margin-left: 180px;
+      border-radius: 5px;
+      border: 2px solid rgb(172, 169, 169);
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .card9-desc {
+    font-family: "Noto Sans JP", sans-serif;
+    // background-color: red;
+    height: 130px;
+    width: 280px;
+    position: absolute;
+    left: 640px;
+    top: 1490px;
+    h2 {
+      font-size: 20px;
+      font-weight: 200;
+      margin-left: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 200;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    p {
+      margin-left: 20px;
+    }
+    button {
+      height: 30px;
+      width: 80px;
+      font-family: "Noto Sans JP", sans-serif;
+      margin-left: 180px;
+      border-radius: 5px;
+      border: 2px solid rgb(172, 169, 169);
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+// more pages
+
+.more-pages {
+  display: flex;
+  gap: 5px;
+  position: relative;
+  left: 735px;
+  .mpages {
+    height: 35px;
+    width: 60px;
+    background-color: rgb(237, 235, 235);
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 200;
+  }
+  .mpages:hover {
+    cursor: pointer;
+    border: 2px solid rgb(111, 105, 105);
+  }
+}
+
+// our brands
+
+.our-container2 {
+  height: 450px;
+  background-color: rgb(237, 235, 235);
+  margin-top: 10px;
+  position: relative;
+  bottom: 280px;
+  h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 50px;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px;
+  }
+  .brand-images {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    img {
+      height: 80px;
+      width: 120px;
+      position: relative;
+      top: 80px;
+      opacity: 0.7;
+    }
+    img:hover {
+      cursor: pointer;
+    }
+  }
+}
+// footer of shop page
+
+.footer2 {
+  margin-top: 200px;
+  height: 500px;
+  background-color: #212529;
+  font-family: "Noto Sans JP", sans-serif;
+
+  .zs-container {
+    // background-color: aqua;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 80px;
+    top: 40px;
+  }
+  h3 {
+    color: rgb(108, 193, 108);
+    font-size: 28px;
+  }
+  // .location-icon,
+  // .call-icon,
+  // .mail-icon {
+  //   font-size: 20px;
+  //   color: white;
+  //   padding: 5px;
+  //   display: inline;
+  // }
+  // .icons {
+  //   margin-top: 15px;
+  // }
+  // .icon-desc {
+  //   position: relative;
+  //   bottom: 150px;
+  //   left: 35px;
+  //   p {
+  //     font-size: 16px;
+  //     text-align: start;
+  //     color: white;
+  //     margin: 5px;
+  //   }
+  // }
+  .icons:hover {
+    cursor: pointer;
+  }
+  .icon-desc:hover {
+    cursor: pointer;
+  }
+
+  // products
+  .p-container {
+    height: 400px;
+    width: 350px;
+    position: relative;
+    bottom: 250px;
+    left: 500px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  h1 {
+    font-size: 35px;
+    text-align: start;
+    position: relative;
+    top: -10px;
+    font-weight: 300;
+    color: white;
+  }
+  .p-items {
+    color: white;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    margin: 10px;
+    text-align: start;
+  }
+  li:hover {
+    cursor: pointer;
+  }
+
+  .further-container {
+    height: 240px;
+    width: 300px;
+    // background-color: green;
+    position: relative;
+    left: 350px;
+    bottom: 300px;
+  }
+  .further-items {
+    color: white;
+  }
+  .further-items:hover {
+    cursor: pointer;
+  }
+  // social media icons
+  .media-container {
+    height: 80px;
+    width: 350px;
+    // background-color: green;
+    position: relative;
+    bottom: 320px;
+    left: 80px;
+    display: flex;
+  }
+  .fb-icon,
+  .insta-icon,
+  .twitter-icon {
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    border-radius: 50%;
+  }
+  i {
+    align-items: center;
+    margin-left: 8px;
+    color: white;
+  }
+  i:hover {
+    cursor: pointer;
+    color: #212529;
+    background-color: white;
+  }
+  //  footer-form
+  .footer-form {
+    position: relative;
+    bottom: 380px;
+    left: 1050px;
+    width: 400px;
+  }
+
+  input {
+    height: 42px;
+    width: 255px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+  .form-btn {
+    height: 46px;
+    width: 100px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    position: relative;
+    bottom: 1.5px;
+    background-color: rgb(116, 210, 116);
+    color: white;
+    border-radius: 5px;
+  }
+  .form-btn:hover {
+    cursor: pointer;
+  }
+}
+
+// CONTACT PAGE STARTS HERE
+.contact-us {
+  background-color: rgb(234, 228, 228);
+  height: 300px;
+  border-top: 2px solid rgb(187, 182, 182);
+  h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 200;
+    padding-top: 60px;
+  }
+  p {
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 10px;
+  }
+}
+
+// contact form
+.cform {
+  // background-color: rgb(234, 228, 228);
+  height: 600px;
+  input {
+    height: 50px;
+    width: 400px;
+    position: relative;
+    left: 280px;
+    top: 60px;
+    border: 2px solid rgb(193, 183, 183);
+  }
+  label {
+    position: relative;
+    left: 380px;
+    top: 60px;
+  }
+  .name,
+  .mail,
+  .subject,
+  .message {
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin: 10px;
+  }
+  .name {
+    position: relative;
+    left: 300px;
+  }
+  .subject {
+    width: 850px;
+    position: relative;
+    left: 290px;
+  }
+  .message {
+    height: 200px;
+    width: 850px;
+  }
+  .mail {
+    position: relative;
+    left: 265px;
+  }
+  button {
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: 1110px;
+    top: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid rgb(193, 183, 183);
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
+
+// contact Footer
+
+.footer3 {
+  // margin-top: -10px;
+  height: 500px;
+  background-color: #212529;
+  font-family: "Noto Sans JP", sans-serif;
+
+  .zs-container {
+    // background-color: aqua;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 80px;
+    top: 40px;
+  }
+  h3 {
+    color: rgb(108, 193, 108);
+    font-size: 28px;
+  }
+  // .location-icon,
+  // .call-icon,
+  // .mail-icon {
+  //   font-size: 20px;
+  //   color: white;
+  //   padding: 5px;
+  //   display: inline;
+  // }
+  // .icons {
+  //   margin-top: 15px;
+  // }
+  // .icon-desc {
+  //   position: relative;
+  //   bottom: 150px;
+  //   left: 35px;
+  //   p {
+  //     font-size: 16px;
+  //     text-align: start;
+  //     color: white;
+  //     margin: 5px;
+  //   }
+  // }
+  .icons:hover {
+    cursor: pointer;
+  }
+  .icon-desc:hover {
+    cursor: pointer;
+  }
+
+  // products
+  .p-container {
+    height: 400px;
+    width: 350px;
+    position: relative;
+    bottom: 250px;
+    left: 500px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  h1 {
+    font-size: 35px;
+    text-align: start;
+    position: relative;
+    top: -10px;
+    font-weight: 300;
+    color: white;
+  }
+  .p-items {
+    color: white;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    margin: 10px;
+    text-align: start;
+  }
+  li:hover {
+    cursor: pointer;
+  }
+
+  .further-container {
+    height: 240px;
+    width: 300px;
+    // background-color: green;
+    position: relative;
+    left: 350px;
+    bottom: 260px;
+  }
+  .further-items {
+    color: white;
+  }
+  .further-items:hover {
+    cursor: pointer;
+  }
+  // social media icons
+  .media-container {
+    height: 80px;
+    width: 350px;
+    // background-color: green;
+    position: relative;
+    bottom: 320px;
+    left: 80px;
+    display: flex;
+  }
+  .fb-icon,
+  .insta-icon,
+  .twitter-icon {
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    border-radius: 50%;
+  }
+  i {
+    align-items: center;
+    margin-left: 8px;
+    color: white;
+  }
+  i:hover {
+    cursor: pointer;
+    color: #212529;
+    background-color: white;
+  }
+  //  footer-form
+  .footer-form {
+    position: relative;
+    bottom: 380px;
+    left: 1050px;
+    width: 400px;
+  }
+
+  input {
+    height: 42px;
+    width: 255px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+  .form-btn {
+    height: 46px;
+    width: 100px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    position: relative;
+    bottom: 1.5px;
+    background-color: rgb(116, 210, 116);
+    color: white;
+    border-radius: 5px;
+  }
+  .form-btn:hover {
+    cursor: pointer;
+  }
+}

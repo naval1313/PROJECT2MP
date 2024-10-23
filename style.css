@@ -1,0 +1,1236 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: white;
+}
+.header nav {
+  display: flex;
+}
+.header img {
+  display: inline;
+  height: 90px;
+  width: 90px;
+  margin-left: 100px;
+}
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 90px;
+  margin-left: 280px;
+  margin-top: 28px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.header li a {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 300;
+  font-size: 22px;
+  padding: 10px;
+  color: black;
+}
+.header .icons {
+  display: flex;
+  color: black;
+  gap: 15px;
+  margin-left: 250px;
+  font-size: 20px;
+  margin-top: 35px;
+}
+.header .icons:hover {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  background-color: rgb(242, 239, 239);
+  height: 725px;
+}
+.main .main-intro {
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 150px;
+  margin-left: 50px;
+  padding: 80px;
+}
+.main h1 {
+  font-weight: 100;
+  font-size: 65px;
+}
+.main h3 {
+  font-weight: 100;
+  font-size: 35px;
+}
+.main p {
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.main img {
+  height: 550px;
+  margin-top: 70px;
+  margin-right: 200px;
+}
+.main .lines {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 765px;
+  left: 680px;
+}
+.main .lines .line {
+  height: 2px;
+  width: 35px;
+  background-color: rgb(133, 207, 133);
+}
+.main .lines .line:hover {
+  background-color: rgb(67, 175, 67);
+  cursor: pointer;
+}
+
+.categories {
+  margin-top: 80px;
+}
+.categories h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  text-align: center;
+}
+.categories p {
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 80px;
+}
+.products img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+.products-desc1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans JP", sans-serif;
+  gap: 300px;
+}
+.products-desc1 .watch-desc {
+  position: relative;
+  right: 25px;
+  top: 10px;
+}
+.products-desc1 .shoe-desc {
+  position: relative;
+  left: 25px;
+  top: 10px;
+}
+.products-desc1 .acc-desc {
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+
+.products-desc2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans JP", sans-serif;
+  gap: 200px;
+}
+.products-desc2 .btn {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: rgb(107, 179, 107);
+  border-radius: 5px;
+  font-size: 18px;
+  border: 2px solid rgb(107, 179, 107);
+}
+.products-desc2 .btn1 {
+  position: relative;
+  right: 100px;
+  top: 30px;
+}
+.products-desc2 .btn2 {
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+.products-desc2 .btn3 {
+  position: relative;
+  left: 120px;
+  top: 30px;
+}
+.products-desc2 .btn:hover {
+  cursor: pointer;
+}
+
+.featured-products {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: rgb(221, 221, 241);
+  height: 900px;
+  position: relative;
+  top: 160px;
+}
+.featured-products h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 200;
+  position: relative;
+  top: 60px;
+}
+.featured-products p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 200;
+  position: relative;
+  top: 60px;
+}
+
+.card {
+  display: flex;
+  gap: 80px;
+  margin-left: 160px;
+  margin-top: 120px;
+}
+.card .card1,
+.card .card2,
+.card .card3 {
+  height: 500px;
+  width: 350px;
+  background-color: white;
+  background-size: cover;
+}
+.card .card1 h1,
+.card .card2 h1,
+.card .card3 h1 {
+  font-size: 35px;
+  position: relative;
+  right: 100px;
+  top: 20px;
+}
+.card .card1 p,
+.card .card2 p,
+.card .card3 p {
+  text-align: start;
+  position: relative;
+  bottom: -100px;
+  left: 10px;
+}
+.card img {
+  height: 250px;
+  width: 350px;
+}
+
+.footer {
+  height: 500px;
+  background-color: #212529;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.footer .zs-container {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 80px;
+  top: 40px;
+}
+.footer h3 {
+  color: rgb(108, 193, 108);
+  font-size: 28px;
+}
+.footer .location-icon,
+.footer .call-icon,
+.footer .mail-icon {
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  display: inline;
+}
+.footer .icons {
+  margin-top: 15px;
+}
+.footer .icon-desc {
+  position: relative;
+  bottom: 150px;
+  left: 35px;
+}
+.footer .icon-desc p {
+  font-size: 16px;
+  text-align: start;
+  color: white;
+  margin: 5px;
+}
+.footer .icons:hover {
+  cursor: pointer;
+}
+.footer .icon-desc:hover {
+  cursor: pointer;
+}
+.footer .p-container {
+  height: 400px;
+  width: 350px;
+  position: relative;
+  bottom: 250px;
+  left: 500px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.footer h1 {
+  font-size: 35px;
+  text-align: start;
+  position: relative;
+  top: -10px;
+  font-weight: 300;
+  color: white;
+}
+.footer .p-items {
+  color: white;
+}
+.footer ul {
+  list-style: none;
+}
+.footer li {
+  margin: 10px;
+  text-align: start;
+}
+.footer li:hover {
+  cursor: pointer;
+}
+.footer .further-container {
+  height: 240px;
+  width: 300px;
+  position: relative;
+  left: 350px;
+  bottom: 260px;
+}
+.footer .further-items {
+  color: white;
+}
+.footer .further-items:hover {
+  cursor: pointer;
+}
+.footer .media-container {
+  height: 80px;
+  width: 350px;
+  position: relative;
+  bottom: 320px;
+  left: 80px;
+  display: flex;
+}
+.footer .fb-icon,
+.footer .insta-icon,
+.footer .twitter-icon {
+  height: 50px;
+  width: 50px;
+  font-size: 35px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 8px;
+  border-radius: 50%;
+}
+.footer i {
+  align-items: center;
+  margin-left: 8px;
+  color: white;
+}
+.footer i:hover {
+  cursor: pointer;
+  color: #212529;
+  background-color: white;
+}
+.footer .footer-form {
+  position: relative;
+  bottom: 380px;
+  left: 950px;
+  width: 400px;
+}
+.footer input {
+  height: 42px;
+  width: 255px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.footer .form-btn {
+  height: 46px;
+  width: 100px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  position: relative;
+  bottom: 1.5px;
+  background-color: rgb(116, 210, 116);
+  color: white;
+  border-radius: 5px;
+}
+.footer .form-btn:hover {
+  cursor: pointer;
+}
+
+.main2-container {
+  background-color: rgb(166, 199, 213);
+  height: 650px;
+}
+.main2-container img {
+  height: 450px;
+  width: 350px;
+  position: relative;
+  left: 950px;
+  bottom: 100px;
+}
+
+.main2-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 200px;
+  width: 700px;
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+.main2-desc h1 {
+  font-size: 42px;
+  color: black;
+}
+.main2-desc p {
+  color: black;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.main2-desc .main2-img {
+  height: 200px;
+  width: 100px;
+  border: 2px solid black;
+}
+
+.our-services {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.our-services h1 {
+  font-size: 55px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 60px;
+}
+.our-services p {
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.services-cards {
+  display: flex;
+  gap: 80px;
+  margin-left: 250px;
+  margin-top: 80px;
+}
+.services-cards .scard1,
+.services-cards .scard2,
+.services-cards .scard3 {
+  height: 250px;
+  width: 280px;
+  border: 2px solid rgb(166, 199, 213);
+  border-radius: 8px;
+}
+.services-cards h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 120px;
+  left: 60px;
+}
+.services-cards .scard1,
+.services-cards h1 {
+  margin-bottom: 50px;
+}
+.services-cards i {
+  font-size: 70px;
+  position: relative;
+  left: 100px;
+  top: 80px;
+  color: rgb(166, 199, 213);
+}
+.services-cards .scard1 h1 {
+  margin-bottom: 50px;
+}
+
+.our-container {
+  height: 450px;
+  background-color: rgb(166, 199, 213);
+  margin-top: 60px;
+}
+.our-container h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 50px;
+}
+.our-container p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+.our-container .brand-images {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+.our-container .brand-images img {
+  height: 80px;
+  width: 120px;
+  position: relative;
+  top: 80px;
+}
+.our-container .brand-images img:hover {
+  cursor: pointer;
+}
+
+nav {
+  box-shadow: 0px 0px 2px rgb(182, 171, 171);
+}
+
+.categories-container {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 400px;
+  width: 220px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.categories-container h1 {
+  font-size: 35px;
+  font-weight: 200;
+  margin-left: 5px;
+}
+.categories-container ul {
+  list-style: none;
+  margin-top: 20px;
+}
+.categories-container li {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 5px;
+}
+.categories-container li:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.product-heading {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.product-heading h1 {
+  font-size: 26px;
+  font-weight: 200;
+  position: relative;
+  bottom: 400px;
+  left: 400px;
+  word-spacing: 8px;
+  display: inline;
+}
+
+.shop-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  position: relative;
+  left: 400px;
+  bottom: 380px;
+  width: 999px;
+}
+.shop-cards img {
+  height: 380px;
+}
+.shop-cards .card {
+  height: 520px;
+  width: 285px;
+  border: 2px solid black;
+  margin: 0;
+  border: 2px solid rgb(189, 186, 186);
+}
+.shop-cards .card:hover {
+  cursor: pointer;
+  border: 3px solid rgb(118, 113, 113);
+}
+.shop-cards .card1-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 130px;
+  width: 280px;
+  position: absolute;
+  top: 385px;
+  left: 2px;
+}
+.shop-cards .card1-desc h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+.shop-cards .card1-desc h3 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.shop-cards .card1-desc p {
+  margin-left: 20px;
+}
+.shop-cards .card1-desc button {
+  height: 30px;
+  width: 80px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 180px;
+  border-radius: 5px;
+  border: 2px solid rgb(172, 169, 169);
+}
+.shop-cards .card1-desc button:hover {
+  cursor: pointer;
+}
+.shop-cards .card2-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 130px;
+  width: 280px;
+  position: absolute;
+  left: 322px;
+  top: 390px;
+}
+.shop-cards .card2-desc h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+.shop-cards .card2-desc h3 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.shop-cards .card2-desc p {
+  margin-left: 20px;
+}
+.shop-cards .card2-desc button {
+  height: 30px;
+  width: 80px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 180px;
+  border-radius: 5px;
+  border: 2px solid rgb(172, 169, 169);
+}
+.shop-cards .card2-desc button:hover {
+  cursor: pointer;
+}
+.shop-cards .card3-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 130px;
+  width: 280px;
+  position: absolute;
+  left: 640px;
+  top: 390px;
+}
+.shop-cards .card3-desc h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+.shop-cards .card3-desc h3 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.shop-cards .card3-desc p {
+  margin-left: 20px;
+}
+.shop-cards .card3-desc button {
+  height: 30px;
+  width: 80px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 180px;
+  border-radius: 5px;
+  border: 2px solid rgb(172, 169, 169);
+}
+.shop-cards .card3-desc button:hover {
+  cursor: pointer;
+}
+.shop-cards .card4-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 130px;
+  width: 280px;
+  position: absolute;
+  left: 5px;
+  top: 940px;
+}
+.shop-cards .card4-desc h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+.shop-cards .card4-desc h3 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.shop-cards .card4-desc p {
+  margin-left: 20px;
+}
+.shop-cards .card4-desc button {
+  height: 30px;
+  width: 80px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 180px;
+  border-radius: 5px;
+  border: 2px solid rgb(172, 169, 169);
+}
+.shop-cards .card4-desc button:hover {
+  cursor: pointer;
+}
+.shop-cards .card5-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 130px;
+  width: 280px;
+  position: absolute;
+  left: 330px;
+  top: 940px;
+}
+.shop-cards .card5-desc h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+.shop-cards .card5-desc h3 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.shop-cards .card5-desc p {
+  margin-left: 20px;
+}
+.shop-cards .card5-desc button {
+  height: 30px;
+  width: 80px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 180px;
+  border-radius: 5px;
+  border: 2px solid rgb(172, 169, 169);
+}
+.shop-cards .card5-desc button:hover {
+  cursor: pointer;
+}
+.shop-cards .card6-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 130px;
+  width: 280px;
+  position: absolute;
+  left: 640px;
+  top: 940px;
+}
+.shop-cards .card6-desc h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+.shop-cards .card6-desc h3 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.shop-cards .card6-desc p {
+  margin-left: 20px;
+}
+.shop-cards .card6-desc button {
+  height: 30px;
+  width: 80px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 180px;
+  border-radius: 5px;
+  border: 2px solid rgb(172, 169, 169);
+}
+.shop-cards .card6-desc button:hover {
+  cursor: pointer;
+}
+.shop-cards .card7-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 130px;
+  width: 280px;
+  position: absolute;
+  left: 5px;
+  top: 1490px;
+}
+.shop-cards .card7-desc h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+.shop-cards .card7-desc h3 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.shop-cards .card7-desc p {
+  margin-left: 20px;
+}
+.shop-cards .card7-desc button {
+  height: 30px;
+  width: 80px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 180px;
+  border-radius: 5px;
+  border: 2px solid rgb(172, 169, 169);
+}
+.shop-cards .card7-desc button:hover {
+  cursor: pointer;
+}
+.shop-cards .card8-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 130px;
+  width: 280px;
+  position: absolute;
+  left: 325px;
+  top: 1490px;
+}
+.shop-cards .card8-desc h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+.shop-cards .card8-desc h3 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.shop-cards .card8-desc p {
+  margin-left: 20px;
+}
+.shop-cards .card8-desc button {
+  height: 30px;
+  width: 80px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 180px;
+  border-radius: 5px;
+  border: 2px solid rgb(172, 169, 169);
+}
+.shop-cards .card8-desc button:hover {
+  cursor: pointer;
+}
+.shop-cards .card9-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 130px;
+  width: 280px;
+  position: absolute;
+  left: 640px;
+  top: 1490px;
+}
+.shop-cards .card9-desc h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+.shop-cards .card9-desc h3 {
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.shop-cards .card9-desc p {
+  margin-left: 20px;
+}
+.shop-cards .card9-desc button {
+  height: 30px;
+  width: 80px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 180px;
+  border-radius: 5px;
+  border: 2px solid rgb(172, 169, 169);
+}
+.shop-cards .card9-desc button:hover {
+  cursor: pointer;
+}
+
+.more-pages {
+  display: flex;
+  gap: 5px;
+  position: relative;
+  left: 735px;
+}
+.more-pages .mpages {
+  height: 35px;
+  width: 60px;
+  background-color: rgb(237, 235, 235);
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 200;
+}
+.more-pages .mpages:hover {
+  cursor: pointer;
+  border: 2px solid rgb(111, 105, 105);
+}
+
+.our-container2 {
+  height: 450px;
+  background-color: rgb(237, 235, 235);
+  margin-top: 10px;
+  position: relative;
+  bottom: 280px;
+}
+.our-container2 h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 50px;
+}
+.our-container2 p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+.our-container2 .brand-images {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+.our-container2 .brand-images img {
+  height: 80px;
+  width: 120px;
+  position: relative;
+  top: 80px;
+  opacity: 0.7;
+}
+.our-container2 .brand-images img:hover {
+  cursor: pointer;
+}
+
+.footer2 {
+  margin-top: 200px;
+  height: 500px;
+  background-color: #212529;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.footer2 .zs-container {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 80px;
+  top: 40px;
+}
+.footer2 h3 {
+  color: rgb(108, 193, 108);
+  font-size: 28px;
+}
+.footer2 .icons:hover {
+  cursor: pointer;
+}
+.footer2 .icon-desc:hover {
+  cursor: pointer;
+}
+.footer2 .p-container {
+  height: 400px;
+  width: 350px;
+  position: relative;
+  bottom: 250px;
+  left: 500px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.footer2 h1 {
+  font-size: 35px;
+  text-align: start;
+  position: relative;
+  top: -10px;
+  font-weight: 300;
+  color: white;
+}
+.footer2 .p-items {
+  color: white;
+}
+.footer2 ul {
+  list-style: none;
+}
+.footer2 li {
+  margin: 10px;
+  text-align: start;
+}
+.footer2 li:hover {
+  cursor: pointer;
+}
+.footer2 .further-container {
+  height: 240px;
+  width: 300px;
+  position: relative;
+  left: 350px;
+  bottom: 300px;
+}
+.footer2 .further-items {
+  color: white;
+}
+.footer2 .further-items:hover {
+  cursor: pointer;
+}
+.footer2 .media-container {
+  height: 80px;
+  width: 350px;
+  position: relative;
+  bottom: 320px;
+  left: 80px;
+  display: flex;
+}
+.footer2 .fb-icon,
+.footer2 .insta-icon,
+.footer2 .twitter-icon {
+  height: 50px;
+  width: 50px;
+  font-size: 35px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 8px;
+  border-radius: 50%;
+}
+.footer2 i {
+  align-items: center;
+  margin-left: 8px;
+  color: white;
+}
+.footer2 i:hover {
+  cursor: pointer;
+  color: #212529;
+  background-color: white;
+}
+.footer2 .footer-form {
+  position: relative;
+  bottom: 380px;
+  left: 1050px;
+  width: 400px;
+}
+.footer2 input {
+  height: 42px;
+  width: 255px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.footer2 .form-btn {
+  height: 46px;
+  width: 100px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  position: relative;
+  bottom: 1.5px;
+  background-color: rgb(116, 210, 116);
+  color: white;
+  border-radius: 5px;
+}
+.footer2 .form-btn:hover {
+  cursor: pointer;
+}
+
+.contact-us {
+  background-color: rgb(234, 228, 228);
+  height: 300px;
+  border-top: 2px solid rgb(187, 182, 182);
+}
+.contact-us h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 200;
+  padding-top: 60px;
+}
+.contact-us p {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+.cform {
+  height: 600px;
+}
+.cform input {
+  height: 50px;
+  width: 400px;
+  position: relative;
+  left: 280px;
+  top: 60px;
+  border: 2px solid rgb(193, 183, 183);
+}
+.cform label {
+  position: relative;
+  left: 380px;
+  top: 60px;
+}
+.cform .name,
+.cform .mail,
+.cform .subject,
+.cform .message {
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 18px;
+  margin: 10px;
+}
+.cform .name {
+  position: relative;
+  left: 300px;
+}
+.cform .subject {
+  width: 850px;
+  position: relative;
+  left: 290px;
+}
+.cform .message {
+  height: 200px;
+  width: 850px;
+}
+.cform .mail {
+  position: relative;
+  left: 265px;
+}
+.cform button {
+  height: 50px;
+  width: 100px;
+  position: relative;
+  left: 1110px;
+  top: 70px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid rgb(193, 183, 183);
+}
+.cform button:hover {
+  cursor: pointer;
+}
+
+.footer3 {
+  height: 500px;
+  background-color: #212529;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.footer3 .zs-container {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 80px;
+  top: 40px;
+}
+.footer3 h3 {
+  color: rgb(108, 193, 108);
+  font-size: 28px;
+}
+.footer3 .icons:hover {
+  cursor: pointer;
+}
+.footer3 .icon-desc:hover {
+  cursor: pointer;
+}
+.footer3 .p-container {
+  height: 400px;
+  width: 350px;
+  position: relative;
+  bottom: 250px;
+  left: 500px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.footer3 h1 {
+  font-size: 35px;
+  text-align: start;
+  position: relative;
+  top: -10px;
+  font-weight: 300;
+  color: white;
+}
+.footer3 .p-items {
+  color: white;
+}
+.footer3 ul {
+  list-style: none;
+}
+.footer3 li {
+  margin: 10px;
+  text-align: start;
+}
+.footer3 li:hover {
+  cursor: pointer;
+}
+.footer3 .further-container {
+  height: 240px;
+  width: 300px;
+  position: relative;
+  left: 350px;
+  bottom: 260px;
+}
+.footer3 .further-items {
+  color: white;
+}
+.footer3 .further-items:hover {
+  cursor: pointer;
+}
+.footer3 .media-container {
+  height: 80px;
+  width: 350px;
+  position: relative;
+  bottom: 320px;
+  left: 80px;
+  display: flex;
+}
+.footer3 .fb-icon,
+.footer3 .insta-icon,
+.footer3 .twitter-icon {
+  height: 50px;
+  width: 50px;
+  font-size: 35px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 8px;
+  border-radius: 50%;
+}
+.footer3 i {
+  align-items: center;
+  margin-left: 8px;
+  color: white;
+}
+.footer3 i:hover {
+  cursor: pointer;
+  color: #212529;
+  background-color: white;
+}
+.footer3 .footer-form {
+  position: relative;
+  bottom: 380px;
+  left: 1050px;
+  width: 400px;
+}
+.footer3 input {
+  height: 42px;
+  width: 255px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.footer3 .form-btn {
+  height: 46px;
+  width: 100px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  position: relative;
+  bottom: 1.5px;
+  background-color: rgb(116, 210, 116);
+  color: white;
+  border-radius: 5px;
+}
+.footer3 .form-btn:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
